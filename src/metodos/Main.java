@@ -6,7 +6,7 @@ public class Main {
         int N = 1000;
         int vet[] = new int[N];
         
-        cria(N, vet, 0);
+        cria(N, vet, 1);
  
         int vet1[] = vet.clone();
         int vet2[] = vet.clone();
@@ -15,7 +15,7 @@ public class Main {
         int vet5[] = vet.clone();
         int vet6[] = vet.clone();
 
-        System.out.println("Ordenado");
+        
         
         //Insertion
         double start3 = System.currentTimeMillis();
